@@ -7,7 +7,7 @@ from urllib.parse import urljoin
 class TestAPIEndpoints(unittest.TestCase):
     def setUp(self):
         """Set up test case with API configuration."""
-        self.base_url = "http://localhost:5557"  # Replace with your API's IP if different
+        self.base_url = "http://localhost:5556"  # Replace with your API's IP if different
         self.headers = {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
